@@ -1,0 +1,715 @@
+﻿include "%L"   # import the default Compose file for your locale
+
+# IPA
+
+<Multi_key> <a> <h>                        : "ɑ"   # open      back unrounded vowel
+<Multi_key> <A> <h>                        : "Ɑ"   # open      back unrounded vowel capital
+<Multi_key> <less> <a> <h>                 : "ɒ"   # open      back rounded   vowel
+<Multi_key> <less> <A> <h>                 : "Ɒ"   # open      back rounded   vowel capital
+<Multi_key> <a> <a>                        : "ɐ"   # near-open central        vowel
+<Multi_key> <A> <a>                        : "Ɐ"   # near-open central        vowel capital
+<Multi_key> <o> <parenright>               : "ɔ"   # open-mid  back rounded   vowel
+<Multi_key> <O> <parenright>               : "Ɔ"   # open-mid  back rounded   vowel capital
+
+<Multi_key> <c> <question> <apostrophe>    : "ƈ"   # voiceless palatal         implosive
+<Multi_key> <d> <h>                        : "ð"   # voiced    dental          fricative
+<Multi_key> <D> <h>                        : "Ð"   # voiced    dental          fricative capita
+<Multi_key> <d> <question> <apostrophe>    : "ɖ"   # 
+<Multi_key> <D> <question> <apostrophe>    : "Ɖ"   # 
+<Multi_key> <s> <h>                        : "ʃ"   #
+<Multi_key> <s> <minus> <h>                : "ʄ"   # voiced    palatal         implosive
+<Multi_key> <t> <s> <h>                    : "ʧ"   # voiceless palato-alveolar affricate
+<Multi_key> <d> <j>                        : "ɟ"   # voiced    palatal         stop
+<Multi_key> <n> <j>                        : "ɲ"   #           palatal         nasal
+
+<Multi_key> <apostrophe> <question>                : "ʼ"   # tack        modifier ejective
+<Multi_key> <underscore> <Up>                      : "˔"   # tack        modifier raised
+<Multi_key> <ampersand> <underscore> <Up>          : "̝"    # subscript   modifier raised
+<Multi_key> <underscore> <Down>                    : "˕"   # tack        modifier lowered
+<Multi_key> <ampersand> <underscore> <Down>        : "̞"    # subscript   modifier lowered
+<Multi_key> <ampersand> <underscore> <plus>        : "̟"    # subscript   modifier advanced
+<Multi_key> <ampersand> <underscore> <minus>       : "̠"    # subscript   modifier retracted
+<Multi_key> <ampersand> <ampersand> <asciicircum>          : "͡"    # superscript tie      double articulation
+<Multi_key> <ampersand> <ampersand> <underscore>           : "͜"    # subscript   tie      double articulation
+<Multi_key> <ampersand> <v> <asciicircum>          : "̌"    # superscript modifier voiced
+<Multi_key> <ampersand> <v> <underscore>           : "̬"    # subscript   modifier voiced
+<Multi_key> <ampersand> <comma> <asciicircum>      : "́"
+<Multi_key> <ampersand> <comma> <underscore>       : "̗"
+<Multi_key> <ampersand> <o> <asciicircum>          : "̊"    # superscript modifier voiceless
+<Multi_key> <ampersand> <o> <underscore>           : "̥"    # subscript   modifier voiceless
+<Multi_key> <ampersand> <asciitilde> <asciicircum> : "̃"    # superscript modifier nasal
+<Multi_key> <ampersand> <asciitilde> <underscore>  : "̰"    # subscript   modifier nasal
+<Multi_key> <ampersand> <underscore> <underscore>  : "̳"    # subscript   modifier alveolar
+<Multi_key> <ampersand> <underscore> <bracketleft> : "̪"    # subscript   modifier dental
+<Multi_key> <ampersand> <underscore> <bracketright>: "̺"    # subscript   modifier apical
+<Multi_key> <ampersand> <underscore> <m>           : "̼"    # subscript   modifier linguolabial
+
+
+
+# Greek
+
+<Multi_key> <asterisk> <a>              : "α"
+<Multi_key> <asterisk> <b>              : "β"
+<Multi_key> <asterisk> <c>              : "ψ"
+<Multi_key> <asterisk> <d>              : "δ"
+<Multi_key> <asterisk> <e>              : "ε"
+<Multi_key> <asterisk> <f>              : "φ"
+<Multi_key> <asterisk> <g>              : "γ"
+<Multi_key> <asterisk> <h>              : "η"
+<Multi_key> <asterisk> <i>              : "ι"
+<Multi_key> <asterisk> <j>              : "ξ"
+<Multi_key> <asterisk> <k>              : "κ"
+<Multi_key> <asterisk> <l>              : "λ"
+<Multi_key> <asterisk> <m>              : "μ"
+<Multi_key> <asterisk> <n>              : "ν"
+<Multi_key> <asterisk> <o>              : "ο"
+<Multi_key> <asterisk> <p>              : "π"
+<Multi_key> <asterisk> <r>              : "ρ"
+<Multi_key> <asterisk> <s>              : "σ"
+<Multi_key> <asterisk> <t>              : "τ"
+<Multi_key> <asterisk> <u>              : "θ"
+<Multi_key> <asterisk> <v>              : "ω"
+<Multi_key> <asterisk> <w>              : "ς"
+<Multi_key> <asterisk> <x>              : "χ"
+<Multi_key> <asterisk> <y>              : "υ"
+<Multi_key> <asterisk> <z>              : "ζ"
+
+<Multi_key> <asterisk> <A>              : "Α"
+<Multi_key> <asterisk> <B>              : "Β"
+<Multi_key> <asterisk> <C>              : "Ψ"
+<Multi_key> <asterisk> <D>              : "Δ"
+<Multi_key> <asterisk> <E>              : "Ε"
+<Multi_key> <asterisk> <F>              : "Φ"
+<Multi_key> <asterisk> <G>              : "Γ"
+<Multi_key> <asterisk> <H>              : "Η"
+<Multi_key> <asterisk> <I>              : "Ι"
+<Multi_key> <asterisk> <J>              : "Ξ"
+<Multi_key> <asterisk> <K>              : "Κ"
+<Multi_key> <asterisk> <L>              : "Λ"
+<Multi_key> <asterisk> <M>              : "Μ"
+<Multi_key> <asterisk> <N>              : "Ν"
+<Multi_key> <asterisk> <O>              : "Ο"
+<Multi_key> <asterisk> <P>              : "Π"
+<Multi_key> <asterisk> <R>              : "Ρ"
+<Multi_key> <asterisk> <S>              : "Σ"
+<Multi_key> <asterisk> <T>              : "Τ"
+<Multi_key> <asterisk> <U>              : "Θ"
+<Multi_key> <asterisk> <V>              : "Ω"
+<Multi_key> <asterisk> <X>              : "Χ"
+<Multi_key> <asterisk> <Y>              : "Υ"
+<Multi_key> <asterisk> <Z>              : "Ζ"
+
+<Multi_key> <KP_Multiply> <a>              : "α"
+<Multi_key> <KP_Multiply> <b>              : "β"
+<Multi_key> <KP_Multiply> <c>              : "ψ"
+<Multi_key> <KP_Multiply> <d>              : "δ"
+<Multi_key> <KP_Multiply> <e>              : "ε"
+<Multi_key> <KP_Multiply> <f>              : "φ"
+<Multi_key> <KP_Multiply> <g>              : "γ"
+<Multi_key> <KP_Multiply> <h>              : "η"
+<Multi_key> <KP_Multiply> <i>              : "ι"
+<Multi_key> <KP_Multiply> <j>              : "ξ"
+<Multi_key> <KP_Multiply> <k>              : "κ"
+<Multi_key> <KP_Multiply> <l>              : "λ"
+<Multi_key> <KP_Multiply> <m>              : "μ"
+<Multi_key> <KP_Multiply> <n>              : "ν"
+<Multi_key> <KP_Multiply> <o>              : "ο"
+<Multi_key> <KP_Multiply> <p>              : "π"
+<Multi_key> <KP_Multiply> <r>              : "ρ"
+<Multi_key> <KP_Multiply> <s>              : "σ"
+<Multi_key> <KP_Multiply> <t>              : "τ"
+<Multi_key> <KP_Multiply> <u>              : "θ"
+<Multi_key> <KP_Multiply> <v>              : "ω"
+<Multi_key> <KP_Multiply> <w>              : "ς"
+<Multi_key> <KP_Multiply> <x>              : "χ"
+<Multi_key> <KP_Multiply> <y>              : "υ"
+<Multi_key> <KP_Multiply> <z>              : "ζ"
+
+<Multi_key> <KP_Multiply> <A>              : "Α"
+<Multi_key> <KP_Multiply> <B>              : "Β"
+<Multi_key> <KP_Multiply> <C>              : "Ψ"
+<Multi_key> <KP_Multiply> <D>              : "Δ"
+<Multi_key> <KP_Multiply> <E>              : "Ε"
+<Multi_key> <KP_Multiply> <F>              : "Φ"
+<Multi_key> <KP_Multiply> <G>              : "Γ"
+<Multi_key> <KP_Multiply> <H>              : "Η"
+<Multi_key> <KP_Multiply> <I>              : "Ι"
+<Multi_key> <KP_Multiply> <J>              : "Ξ"
+<Multi_key> <KP_Multiply> <K>              : "Κ"
+<Multi_key> <KP_Multiply> <L>              : "Λ"
+<Multi_key> <KP_Multiply> <M>              : "Μ"
+<Multi_key> <KP_Multiply> <N>              : "Ν"
+<Multi_key> <KP_Multiply> <O>              : "Ο"
+<Multi_key> <KP_Multiply> <P>              : "Π"
+<Multi_key> <KP_Multiply> <R>              : "Ρ"
+<Multi_key> <KP_Multiply> <S>              : "Σ"
+<Multi_key> <KP_Multiply> <T>              : "Τ"
+<Multi_key> <KP_Multiply> <U>              : "Θ"
+<Multi_key> <KP_Multiply> <V>              : "Ω"
+<Multi_key> <KP_Multiply> <X>              : "Χ"
+<Multi_key> <KP_Multiply> <Y>              : "Υ"
+<Multi_key> <KP_Multiply> <Z>              : "Ζ"
+
+<Multi_key> <asterisk>    <semicolon> : ";" # Greek question mark 😁
+<Multi_key> <KP_Multiply> <semicolon> : ";"
+
+
+
+# Script
+
+<Multi_key> <s> <A> : "𝒜"
+<Multi_key> <s> <B> : "ℬ"
+<Multi_key> <s> <C> : "𝒞"
+<Multi_key> <s> <D> : "𝒟"
+<Multi_key> <s> <E> : "ℰ"
+<Multi_key> <s> <F> : "ℱ"
+<Multi_key> <s> <G> : "𝒢"
+<Multi_key> <s> <H> : "ℋ"
+<Multi_key> <s> <I> : "ℐ"
+<Multi_key> <s> <J> : "𝒥"
+<Multi_key> <s> <K> : "𝒦"
+<Multi_key> <s> <L> : "ℒ"
+<Multi_key> <s> <M> : "ℳ"
+<Multi_key> <s> <N> : "𝒩"
+<Multi_key> <s> <O> : "𝒪"
+<Multi_key> <s> <P> : "𝒫"
+<Multi_key> <s> <Q> : "𝒬"
+<Multi_key> <s> <R> : "ℛ"
+<Multi_key> <s> <S> : "𝒮"
+<Multi_key> <s> <T> : "𝒯"
+<Multi_key> <s> <U> : "𝒰"
+<Multi_key> <s> <V> : "𝒱"
+<Multi_key> <s> <W> : "𝒲"
+<Multi_key> <s> <X> : "𝒳"
+<Multi_key> <s> <Y> : "𝒴"
+<Multi_key> <s> <Z> : "𝒵"
+
+<Multi_key> <s> <a> : "𝒶"
+<Multi_key> <s> <b> : "𝒷"
+<Multi_key> <s> <c> : "𝒸"
+<Multi_key> <s> <d> : "𝒹"
+<Multi_key> <s> <e> : "ℯ"
+<Multi_key> <s> <f> : "𝒻"
+<Multi_key> <s> <g> : "ℊ"
+<Multi_key> <s> <h> : "𝒽"
+<Multi_key> <s> <i> : "𝒾"
+<Multi_key> <s> <j> : "𝒿"
+<Multi_key> <s> <k> : "𝓀"
+<Multi_key> <s> <l> : "𝓁"
+<Multi_key> <s> <m> : "𝓂"
+<Multi_key> <s> <n> : "𝓃"
+<Multi_key> <s> <o> : "ℴ"
+<Multi_key> <s> <p> : "𝓅"
+<Multi_key> <s> <q> : "𝓆"
+<Multi_key> <s> <r> : "𝓇"
+<Multi_key> <s> <s> : "𝓈"
+<Multi_key> <s> <t> : "𝓉"
+<Multi_key> <s> <u> : "𝓊"
+<Multi_key> <s> <v> : "𝓋"
+<Multi_key> <s> <w> : "𝓌"
+<Multi_key> <s> <x> : "𝓍"
+<Multi_key> <s> <y> : "𝓎"
+<Multi_key> <s> <z> : "𝓏"
+
+<Multi_key> <l> <l> : "ℓ"
+<Multi_key> <p> <p> : "℘"
+
+
+
+# Math
+
+<Multi_key> <A> <A>                  : "∀"
+<Multi_key> <E> <E>                  : "∃"
+<Multi_key> <exclam> <E> <E>         : "∄"
+
+<Multi_key> <minus> <0>              : "−"
+<Multi_key> <KP_Subtract> <KP_0>     : "−"
+<Multi_key> <asterisk> <1>           : "⋅"
+<Multi_key> <KP_Multiply> <KP_1>     : "⋅"
+<Multi_key> <x> <x>                  : "×"
+<Multi_key> <asciicircum> <period>   : "·"
+<Multi_key> <o> <equal>              : "∘"
+<Multi_key> <period> <equal>         : "•"
+<Multi_key> <exclam> <Right>         : "¬"
+
+<Multi_key> <i> <n>                  : "∈"
+<Multi_key> <exclam> <i> <n>         : "∉"
+<Multi_key> <n> <i>                  : "∋"
+<Multi_key> <exclam> <n> <i>         : "∌"
+<Multi_key> <braceleft> <parenleft>  : "⊂"
+<Multi_key> <braceleft> <parenright> : "⊃"
+<Multi_key> <braceleft> <equal> <parenleft> : "⊆"
+<Multi_key> <braceleft> <exclam> <equal> <parenleft>: "⊊"
+
+<Multi_key> <braceleft> <u> : "∪"
+<Multi_key> <braceleft> <n> : "∩"
+<Multi_key> <braceleft> <U> : "⋃"
+<Multi_key> <braceleft> <N> : "⋂"
+
+<Multi_key> <T> <T>            :  "⟙"
+<Multi_key> <T> <exclam>       :  "⟘"
+<Multi_key> <backslash> <slash> : "∨"
+<Multi_key> <slash> <backslash> : "∧"
+<Multi_key> <n> <backslash> <slash> : "⋁"
+<Multi_key> <n> <slash> <backslash> : "⋀"
+<Multi_key> <backslash> <underscore> <slash>: "⊻"
+
+<Multi_key> <s> <q>                  : "√"
+<Multi_key> <3> <r> <t>              : "∛"
+<Multi_key> <KP_3> <r> <t>           : "∛"
+<Multi_key> <4> <r> <t>              : "∜"
+<Multi_key> <KP_4> <r> <t>           : "∜"
+
+<Multi_key> <parenleft> <plus>                 <parenright> : "⊕"
+<Multi_key> <parenleft> <KP_Add>               <parenright> : "⊕"
+<Multi_key> <parenleft> <minus>                <parenright> : "⊝"
+<Multi_key> <parenleft> <KP_Subtract>          <parenright> : "⊖"
+<Multi_key> <parenleft> <x> <x>                <parenright> : "⊗"
+<Multi_key> <parenleft> <asterisk>             <parenright> : "⊛"
+<Multi_key> <parenleft> <KP_Multiply>          <parenright> : "⊛"
+<Multi_key> <parenleft> <asciicircum> <period> <parenright> : "⊙"
+<Multi_key> <parenleft> <slash>                <parenright> : "⊘"
+<Multi_key> <parenleft> <KP_Divide>            <parenright> : "⊘"
+<Multi_key> <parenleft> <o> <equal>            <parenright> : "⊚"
+<Multi_key> <parenleft> <equal>                <parenright> : "⊜"
+<Multi_key> <parenleft> <minus> <minus>        <parenright> : "⊝"
+
+<Multi_key> <f> <o> <b> : "⦁"
+<Multi_key> <f> <o> <w> : "∘"
+<Multi_key> <Q> <E> <D> : "∎"
+
+
+<Multi_key> <bar> <space>                        :  "∣"
+<Multi_key> <bar> <slash>                        :  "∤"
+<Multi_key> <bar> <bar> <space>                  :  "∥"
+<Multi_key> <bar> <bar> <slash>                  :  "∦"
+<Multi_key> <bar> <bar> <asciitilde>             :  "⫳"
+<Multi_key> <underscore> <bar> <bar> <underscore>: "⟂"
+
+<Multi_key> <Multi_key> <S> <u> <m>             : "∑"
+<Multi_key> <Multi_key> <P> <r> <o> <d>         : "∏"
+<Multi_key> <Multi_key> <C> <o> <p> <r> <o> <d> : "∐"
+<Multi_key> <Multi_key> <I> <n> <t>             : "∫"
+<Multi_key> <Multi_key> <2> <I> <n> <t>         : "∬"
+<Multi_key> <Multi_key> <KP_2> <I> <n> <t>      : "∬"
+<Multi_key> <Multi_key> <3> <I> <n> <t>         : "∭"
+<Multi_key> <Multi_key> <KP_3> <I> <n> <t>      : "∭"
+<Multi_key> <Multi_key> <o> <I> <n> <t>         : "∮"
+<Multi_key> <Multi_key> <S> <I> <n> <t>         : "∯"
+<Multi_key> <Multi_key> <V> <I> <n> <t>         : "∰"
+
+<Multi_key> <asterisk> <S> <Up>   : "⎲"
+<Multi_key> <asterisk> <S> <Down> : "⎳"
+<Multi_key> <parenleft>    <Up>   : "⎛"
+<Multi_key> <parenleft>    <Left> : "⎜"
+<Multi_key> <parenleft>    <Down> : "⎝"
+<Multi_key> <parenright>   <Up>   : "⎞"
+<Multi_key> <parenright>   <Left> : "⎟"
+<Multi_key> <parenright>   <Down> : "⎠"
+<Multi_key> <bracketleft>  <Up>   : "⎡"
+<Multi_key> <bracketleft>  <Left> : "⎢"
+<Multi_key> <bracketleft>  <Down> : "⎣"
+<Multi_key> <bracketright> <Up>   : "⎤"
+<Multi_key> <bracketright> <Left> : "⎥"
+<Multi_key> <bracketright> <Down> : "⎦"
+<Multi_key> <braceleft>    <Up>   : "⎧"
+<Multi_key> <braceleft>    <Left> : "⎨"
+<Multi_key> <braceleft>    <Right>: "⎪"
+<Multi_key> <braceleft>    <Down> : "⎩"
+<Multi_key> <braceright>   <Up>   : "⎫"
+<Multi_key> <braceright>   <Left> : "⎬"
+<Multi_key> <braceright>   <Right>: "⎪"
+<Multi_key> <braceright>   <Down> : "⎭"
+<Multi_key> <parenleft> <less>     : "〈"
+<Multi_key> <parenright> <greater> : "〉"
+
+<Multi_key> <6> <6>         : "∂"
+<Multi_key> <KP_6> <KP_6>   : "∂"
+<Multi_key> <d> <e> <l>     : "∇"
+<Multi_key> <d> <d> <e> <l> : "∆"
+
+<Multi_key> <plus> <minus>                     : "±"
+<Multi_key> <KP_Add> <KP_Subtract>             : "±"
+<Multi_key> <asciitilde> <space>               : "∼"
+<Multi_key> <exclam> <asciitilde>              : "≁"
+<Multi_key> <asciitilde> <colon>               : "∻"
+<Multi_key> <asciitilde> <Left>                : "∽"
+<Multi_key> <asciitilde> <minus>               : "≃"
+<Multi_key> <asciitilde> <KP_Subtract>         : "≃"
+<Multi_key> <exclam> <asciitilde> <minus>      : "≄"
+<Multi_key> <exclam> <asciitilde> <KP_Subtract>: "≄"
+<Multi_key> <minus> <asciitilde>               : "≂"
+<Multi_key> <KP_Subtract> <asciitilde>         : "≂"
+<Multi_key> <asciitilde> <equal>               : "≅"
+<Multi_key> <asciitilde> <exclam> <equal>      : "≆"
+<Multi_key> <exclam> <asciitilde> <equal>      : "≇"
+<Multi_key> <asciitilde> <asciitilde>          : "≈"
+<Multi_key> <exclam> <asciitilde> <asciitilde> : "≉"
+<Multi_key> <equal> <8>              : "∝"
+<Multi_key> <equal> <KP_8>           : "∝"
+<Multi_key> <equal> <d> <e> <f>      : "≝"
+<Multi_key> <equal> <equal>          : "≡"
+<Multi_key> <equal> <quest>          : "≟"
+<Multi_key> <colon> <equal>          : "≔"
+<Multi_key> <exclam> <equal>         : "≠"
+<Multi_key> <less> <equal>           : "≤"
+<Multi_key> <greater> <equal>        : "≥"
+<Multi_key> <exclam> <less>          : "≮"
+<Multi_key> <exclam> <greater>       : "≯"
+<Multi_key> <0> <less> <less>          : "≪"
+<Multi_key> <KP_0> <less> <less>       : "≪"
+<Multi_key> <0> <greater> <greater>    : "≫"
+<Multi_key> <KP_0> <greater> <greater> : "≫"
+
+<Multi_key> <equal> <Right>                 : "⇒"
+<Multi_key> <equal> <Left>                  : "⇐"
+<Multi_key> <equal> <Left> <Right>          : "⇔"
+<Multi_key> <equal> <exclam> <Right>        : "⇏"
+<Multi_key> <equal> <exclam> <Left>         : "⇍"
+<Multi_key> <equal> <exclam> <Left> <Right> : "⇎"
+
+<Multi_key> <minus> <Up>    : "↑"
+<Multi_key> <minus> <Right> : "→"
+<Multi_key> <minus> <Down>  : "↓"
+<Multi_key> <minus> <Left>  : "←"
+<Multi_key> <bar> <minus> <greater> : "↦"
+
+<Multi_key> <8> <8>         : "∞"
+<Multi_key> <KP_8> <KP_8>   : "∞"
+
+<Multi_key> <ampersand> <asciicircum>: "̂"
+<Multi_key> <ampersand> <v> <e> <c> : "⃗"
+
+
+<Multi_key> <bar> <0>   : "𝟘"
+<Multi_key> <bar> <KP_0>: "𝟘"
+<Multi_key> <bar> <1>   : "𝟙"
+<Multi_key> <bar> <KP_1>: "𝟙"
+<Multi_key> <bar> <2>   : "𝟚"
+<Multi_key> <bar> <KP_2>: "𝟚"
+<Multi_key> <bar> <3>   : "𝟛"
+<Multi_key> <bar> <KP_3>: "𝟛"
+<Multi_key> <bar> <4>   : "𝟜"
+<Multi_key> <bar> <KP_4>: "𝟜"
+<Multi_key> <bar> <5>   : "𝟝"
+<Multi_key> <bar> <KP_5>: "𝟝"
+<Multi_key> <bar> <6>   : "𝟞"
+<Multi_key> <bar> <KP_6>: "𝟞"
+<Multi_key> <bar> <7>   : "𝟟"
+<Multi_key> <bar> <KP_7>: "𝟟"
+<Multi_key> <bar> <8>   : "𝟠"
+<Multi_key> <bar> <KP_8>: "𝟠"
+<Multi_key> <bar> <9>   : "𝟡"
+<Multi_key> <bar> <KP_9>: "𝟡"
+<Multi_key> <bar> <A>: "𝔸"
+<Multi_key> <bar> <B>: "𝔹"
+<Multi_key> <bar> <C>: "ℂ"
+<Multi_key> <bar> <D>: "𝔻"
+<Multi_key> <bar> <E>: "𝔼"
+<Multi_key> <bar> <F>: "𝔽"
+<Multi_key> <bar> <G>: "𝔾"
+<Multi_key> <bar> <H>: "ℍ"
+<Multi_key> <bar> <I>: "𝕀"
+<Multi_key> <bar> <J>: "𝕁"
+<Multi_key> <bar> <K>: "𝕂"
+<Multi_key> <bar> <L>: "𝕃"
+<Multi_key> <bar> <M>: "𝕄"
+<Multi_key> <bar> <N>: "ℕ"
+<Multi_key> <bar> <O>: "𝕆"
+<Multi_key> <bar> <P>: "ℙ"
+<Multi_key> <bar> <Q>: "ℚ"
+<Multi_key> <bar> <R>: "ℝ"
+<Multi_key> <bar> <S>: "𝕊"
+<Multi_key> <bar> <T>: "𝕋"
+<Multi_key> <bar> <U>: "𝕌"
+<Multi_key> <bar> <V>: "𝕍"
+<Multi_key> <bar> <W>: "𝕎"
+<Multi_key> <bar> <X>: "𝕏"
+<Multi_key> <bar> <Y>: "𝕐"
+<Multi_key> <bar> <Z>: "ℤ"
+<Multi_key> <bar> <asterisk> <g>: "ℽ"
+<Multi_key> <bar> <asterisk> <p>: "ℼ"
+<Multi_key> <bar> <asterisk> <G>: "ℾ"
+<Multi_key> <bar> <asterisk> <P>: "ℿ"
+<Multi_key> <bar> <asterisk> <S>: "⅀"
+<Multi_key> <bar> <KP_Multiply> <g>: "ℽ"
+<Multi_key> <bar> <KP_Multiply> <p>: "ℼ"
+<Multi_key> <bar> <KP_Multiply> <G>: "ℾ"
+<Multi_key> <bar> <KP_Multiply> <P>: "ℿ"
+<Multi_key> <bar> <KP_Multiply> <S>: "⅀"
+
+<Multi_key> <t> <r> <i>    : "△"
+<Multi_key> <d> <e> <l>    : "∇"
+<Multi_key> <a> <l> <e> <f>: "ℵ"
+
+<Multi_key> <&> <Right>    : "⃗"
+
+
+
+# Typography
+
+<Multi_key> <q> <comma>      : "„"
+<Multi_key> <q> <period>     : "“"
+<Multi_key> <q> <minus>      : "”"
+<Multi_key> <w> <comma>      : "‚"
+<Multi_key> <w> <period>     : "‘"
+<Multi_key> <w> <minus>      : "’"
+<Multi_key> <q> <greater>    : "»"
+<Multi_key> <q> <less>       : "«"
+<Multi_key> <w> <greater>    : "›"
+<Multi_key> <w> <less>       : "‹"
+<Multi_key> <m> <space>      : " "
+<Multi_key> <n> <space>      : " "
+<Multi_key> <0> <space>        : "​"
+<Multi_key> <KP_0> <space>     : "​"
+<Multi_key> <Right> <space>  : "       "
+
+
+
+# Superscript & Subscript
+
+<Multi_key> <asciicircum> <asciicircum> <A>: "ᴬ"
+<Multi_key> <asciicircum> <asciicircum> <B>: "ᴮ"
+# C
+<Multi_key> <asciicircum> <asciicircum> <D>: "ᴰ"
+<Multi_key> <asciicircum> <asciicircum> <E>: "ᴱ"
+# F
+<Multi_key> <asciicircum> <asciicircum> <G>: "ᴳ"
+<Multi_key> <asciicircum> <asciicircum> <H>: "ᴴ"
+<Multi_key> <asciicircum> <asciicircum> <I>: "ᴵ"
+<Multi_key> <asciicircum> <asciicircum> <J>: "ᴶ"
+<Multi_key> <asciicircum> <asciicircum> <K>: "ᴷ"
+<Multi_key> <asciicircum> <asciicircum> <L>: "ᴸ"
+<Multi_key> <asciicircum> <asciicircum> <M>: "ᴹ"
+<Multi_key> <asciicircum> <asciicircum> <N>: "ᴺ"
+<Multi_key> <asciicircum> <asciicircum> <O>: "ᴼ"
+<Multi_key> <asciicircum> <asciicircum> <P>: "ᴾ"
+# Q
+<Multi_key> <asciicircum> <asciicircum> <R>: "ᴿ"
+# S
+<Multi_key> <asciicircum> <asciicircum> <T>: "ᵀ"
+<Multi_key> <asciicircum> <asciicircum> <U>: "ᵁ"
+<Multi_key> <asciicircum> <asciicircum> <V>: "ⱽ"
+<Multi_key> <asciicircum> <asciicircum> <W>: "ᵂ"
+# X Y Z
+
+<Multi_key> <asciicircum> <asciicircum> <a>: "ᵃ"
+<Multi_key> <asciicircum> <asciicircum> <b>: "ᵇ"
+<Multi_key> <asciicircum> <asciicircum> <c>: "ᶜ"
+<Multi_key> <asciicircum> <asciicircum> <d>: "ᵈ"
+<Multi_key> <asciicircum> <asciicircum> <e>: "ᵉ"
+<Multi_key> <asciicircum> <asciicircum> <f>: "ᶠ"
+<Multi_key> <asciicircum> <asciicircum> <g>: "ᵍ"
+<Multi_key> <asciicircum> <asciicircum> <h>: "ʰ"
+<Multi_key> <asciicircum> <asciicircum> <i>: "ⁱ"
+<Multi_key> <asciicircum> <asciicircum> <j>: "ʲ"
+<Multi_key> <asciicircum> <asciicircum> <k>: "ᵏ"
+<Multi_key> <asciicircum> <asciicircum> <l>: "ˡ"
+<Multi_key> <asciicircum> <asciicircum> <m>: "ᵐ"
+<Multi_key> <asciicircum> <asciicircum> <n>: "ⁿ"
+<Multi_key> <asciicircum> <asciicircum> <o>: "ᵒ"
+<Multi_key> <asciicircum> <asciicircum> <p>: "ᵖ"
+# q
+<Multi_key> <asciicircum> <asciicircum> <r>: "ʳ"
+<Multi_key> <asciicircum> <asciicircum> <s>: "ˢ"
+<Multi_key> <asciicircum> <asciicircum> <t>: "ᵗ"
+<Multi_key> <asciicircum> <asciicircum> <u>: "ᵘ"
+<Multi_key> <asciicircum> <asciicircum> <v>: "ᵛ"
+<Multi_key> <asciicircum> <asciicircum> <w>: "ʷ"
+<Multi_key> <asciicircum> <asciicircum> <x>: "ˣ"
+<Multi_key> <asciicircum> <asciicircum> <y>: "ʸ"
+<Multi_key> <asciicircum> <asciicircum> <z>: "ᶻ"
+
+
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <a>: "ᵅ"
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <b>: "ᵝ"
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <g>: "ᵞ"
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <d>: "ᵟ"
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <u>: "ᶿ"
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <i>: "ᶥ"
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <f>: "ᵠ" # this is actually phi but Consolas font is retarded
+<Multi_key> <asciicircum> <asciicircum> <asterisk> <x>: "ᵡ"
+
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <a>: "ᵅ"
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <b>: "ᵝ"
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <g>: "ᵞ"
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <d>: "ᵟ"
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <u>: "ᶿ"
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <i>: "ᶥ"
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <f>: "ᵠ"
+<Multi_key> <asciicircum> <asciicircum> <KP_Multiply> <x>: "ᵡ"
+
+
+<Multi_key> <underscore> <underscore> <a>: "ₐ"
+# b c d
+<Multi_key> <underscore> <underscore> <e>: "ₑ"
+# f g
+<Multi_key> <underscore> <underscore> <h>: "ₕ"
+<Multi_key> <underscore> <underscore> <i>: "ᵢ"
+<Multi_key> <underscore> <underscore> <j>: "ⱼ"
+<Multi_key> <underscore> <underscore> <k>: "ₖ"
+<Multi_key> <underscore> <underscore> <l>: "ₗ"
+<Multi_key> <underscore> <underscore> <m>: "ₘ"
+<Multi_key> <underscore> <underscore> <n>: "ₙ"
+<Multi_key> <underscore> <underscore> <o>: "ₒ"
+<Multi_key> <underscore> <underscore> <p>: "ₚ"
+# q
+<Multi_key> <underscore> <underscore> <r>: "ᵣ"
+<Multi_key> <underscore> <underscore> <s>: "ₛ"
+<Multi_key> <underscore> <underscore> <t>: "ₜ"
+<Multi_key> <underscore> <underscore> <u>: "ᵤ"
+<Multi_key> <underscore> <underscore> <v>: "ᵥ"
+# w
+<Multi_key> <underscore> <underscore> <x>: "ₓ"
+# y z
+
+
+<Multi_key> <underscore> <underscore> <asterisk> <b>: "ᵦ"
+<Multi_key> <underscore> <underscore> <asterisk> <g>: "ᵧ"
+<Multi_key> <underscore> <underscore> <asterisk> <r>: "ᵨ"
+<Multi_key> <underscore> <underscore> <asterisk> <f>: "ᵩ"
+<Multi_key> <underscore> <underscore> <asterisk> <x>: "ᵪ"
+
+<Multi_key> <underscore> <underscore> <KP_Multiply> <b>: "ᵦ"
+<Multi_key> <underscore> <underscore> <KP_Multiply> <g>: "ᵧ"
+<Multi_key> <underscore> <underscore> <KP_Multiply> <r>: "ᵨ"
+<Multi_key> <underscore> <underscore> <KP_Multiply> <f>: "ᵩ"
+<Multi_key> <underscore> <underscore> <KP_Multiply> <x>: "ᵪ"
+
+
+<Multi_key> <asciicircum> <KP_Subtract>: "⁻"
+
+
+
+# Old English
+
+<Multi_key> <t> <t> <h> : "ꝥ"
+<Multi_key> <T> <t> <h> : "Ꝥ"
+
+
+
+# Lenny
+
+<Multi_key> <l> <e> <n> <n> <y> : "( ͡° ͜ʖ ͡°)"
+<Multi_key> <w> <t> <f>         : "ಠ_ಠ"
+<Multi_key> <w> <h> <y>         : "ლ(ಠ益ಠლ)"
+
+
+
+# Emoji
+# http://unicode.org/emoji/charts/full-emoji-list.html
+
+<Multi_key> <e> <m> <o> <colon> <D>              : "😀"
+<Multi_key> <e> <m> <o> <x> <D>                  : "😁"
+<Multi_key> <e> <m> <o> <x> <apostrophe> <D>     : "😂"
+<Multi_key> <e> <m> <o> <colon> <apostrophe> <D> : "😂"
+<Multi_key> <e> <m> <o> <r> <o> <f> <l>          : "🤣"
+<Multi_key> <e> <m> <o> <colon> <d>              : "😃"
+<Multi_key> <e> <m> <o> <x> <parenright>         : "😄"
+<Multi_key> <e> <m> <o> <apostrophe> <x> <parenright>      : "😅"
+<Multi_key> <e> <m> <o> <X> <parenright>                   : "😆"
+<Multi_key> <e> <m> <o> <semicolon> <parenright>           : "😉"
+<Multi_key> <e> <m> <o> <colon> <asterisk>    <parenright> : "😊"
+<Multi_key> <e> <m> <o> <colon> <KP_Multiply> <parenright> : "😊"
+<Multi_key> <e> <m> <o> <colon> <p>                        : "😋"
+<Multi_key> <e> <m> <o> <B> <parenright>                   : "😎"
+<Multi_key> <e> <m> <o> <colon> <less> <3>                 : "😍"
+<Multi_key> <e> <m> <o> <semicolon> <asterisk>             : "😘"
+<Multi_key> <e> <m> <o> <semicolon> <KP_Multiply>          : "😘"
+<Multi_key> <e> <m> <o> <colon> <asterisk>                 : "😗"
+<Multi_key> <e> <m> <o> <colon> <KP_Multiply>              : "😗"
+<Multi_key> <e> <m> <o> <x> <asterisk>    <space>          : "😙"
+<Multi_key> <e> <m> <o> <x> <KP_Multiply> <space>          : "😙"
+<Multi_key> <e> <m> <o> <x> <asterisk>    <asterisk>       : "😚"
+<Multi_key> <e> <m> <o> <x> <KP_Multiply> <KP_Multiply>    : "😚"
+#no symbol for ☺ as it looks almost exactly like 😊
+<Multi_key> <e> <m> <o> <colon> <parenright>     : "🙂"
+<Multi_key> <e> <m> <o> <h> <u> <g>              : "🤗"
+<Multi_key> <e> <m> <o> <t> <h> <i> <n> <k>      : "🤔"
+<Multi_key> <e> <m> <o> <colon> <bar>            : "😐"
+<Multi_key> <e> <m> <o> <x> <bar>                : "😑"
+<Multi_key> <e> <m> <o> <colon> <space>          : "😶"
+<Multi_key> <e> <m> <o> <colon> <Up>             : "🙄"
+<Multi_key> <e> <m> <o> <s> <m> <i> <r> <k>      : "😏"
+<Multi_key> <e> <m> <o> <colon> <Right> <parenright>: "😏"
+<Multi_key> <e> <m> <o> <x> <parenleft>          : "😣"
+<Multi_key> <e> <m> <o> <apostrophe> <colon> <parenleft> : "😥"
+<Multi_key> <e> <m> <o> <colon> <o>              : "😮"
+<Multi_key> <e> <m> <o> <colon> <numbersing>     : "🤐"
+<Multi_key> <e> <m> <o> <colon> <O>              : "😯"
+# missing 😪, 😫
+<Multi_key> <e> <m> <o> <z> <z> <z>              : "😴"
+# missing 😌
+<Multi_key> <e> <m> <o> <n> <e> <r> <d>          : "🤓"
+<Multi_key> <e> <m> <o> <colon> <P>              : "😛"
+<Multi_key> <e> <m> <o> <semicolon> <P>          : "😜"
+<Multi_key> <e> <m> <o> <x> <P>                  : "😝"
+<Multi_key> <e> <m> <o> <d> <r> <o> <o> <l>      : "🤤"
+<Multi_key> <e> <m> <o> <colon> <Right> <parenleft>  : "😒"
+<Multi_key> <e> <m> <o> <apostrophe> <x> <parenleft> : "😓"
+<Multi_key> <e> <m> <o> <colon> <Down>           : "😔"
+<Multi_key> <e> <m> <o> <colon> <slash>          : "😕"
+<Multi_key> <e> <m> <o> <parenleft> <colon>      : "🙃"
+<Multi_key> <e> <m> <o> <colon> <$>              : "🤑"
+<Multi_key> <e> <m> <o> <w> <o> <w>              : "😲"
+<Multi_key> <e> <m> <o> <d> <colon>              : "☹"
+<Multi_key> <e> <m> <o> <colon> <parenleft>      : "🙁"
+<Multi_key> <e> <m> <o> <x> <w>                  : "😖"
+# missing 😞 😟 😤
+<Multi_key> <e> <m> <o> <colon> <apostrophe> <parenleft> : "😢"
+<Multi_key> <e> <m> <o> <colon> <apostrophe> <apostrophe> <parenleft> : "😭"
+<Multi_key> <e> <m> <o> <D> <colon>              : "😦"
+# missing
+<Multi_key> <e> <m> <o> <at> <at>                : "😵"
+<Multi_key> <e> <m> <o> <a> <a> <n> <g> <r> <y>  : "😡"
+<Multi_key> <e> <m> <o> <a> <n> <g> <r> <y>      : "😠"
+# missing
+<Multi_key> <e> <m> <o> <b> <o> <o>              : "👻"
+<Multi_key> <e> <m> <o> <d> <e> <v> <i> <l>      : "😈"
+<Multi_key> <e> <m> <o> <a> <l> <i> <e> <n>      : "👽"
+<Multi_key> <e> <m> <o> <a> <a> <l> <i> <e> <n>  : "👾"
+<Multi_key> <e> <m> <o> <r> <o> <b> <o> <t>      : "🤖"
+<Multi_key> <e> <m> <o> <s> <h> <i> <t>          : "💩"
+# missing
+<Multi_key> <e> <m> <o> <f> <u> <c> <k>          : "🖕"
+<Multi_key> <e> <m> <o> <p> <e> <a> <c> <e>      : "✌"
+<Multi_key> <e> <m> <o> <c> <r> <s> <f> <n> <g>  : "🤞"
+<Multi_key> <e> <m> <o> <s> <p> <o> <c> <k>      : "🖖"
+<Multi_key> <e> <m> <o> <h> <o> <r> <n> <s>      : "🤘"
+<Multi_key> <e> <m> <o> <backslash> <m> <slash>  : "🤘"
+<Multi_key> <e> <m> <o> <c> <a> <l> <l>          : "🤙"
+<Multi_key> <e> <m> <o> <o> <k>                  : "👌"
+<Multi_key> <e> <m> <o> <parenleft> <y> <parenright> : "👍"
+<Multi_key> <e> <m> <o> <parenleft> <n> <parenright> : "👎"
+<Multi_key> <e> <m> <o> <parenleft> <y> <y> <y> <parenright> : "👍👍👍"
+<Multi_key> <e> <m> <o> <less> <3>               : "❤"
+<Multi_key> <e> <m> <o> <less> <KP_3>            : "❤"
+<Multi_key> <e> <m> <o> <less> <greater>         : "♢"
+<Multi_key> <e> <m> <o> <w> <o> <o>              : "🎉"
+
+<Multi_key> <e> <m> <o> <bracketleft> <A> <bracketright>  : "🅰️"
+<Multi_key> <e> <m> <o> <bracketleft> <B> <bracketright>  : "🅱️"
+<Multi_key> <e> <m> <o> <bracketleft> <O> <bracketright>  : "🅾️"
+<Multi_key> <e> <m> <o> <bracketleft> <A> <B> <bracketright>  : "🆎"
+
+<Multi_key> <e> <m> <o> <b> <i> <k> <e>          : "🚴"
+<Multi_key> <e> <m> <o> <b> <o> <o> <k>          : "📙"
+
+
+
+# Other
+
+<Multi_key> <at> <at>     : "ට"
+<Multi> <d> <a> <g> : "†"
+<Multi_key> <asterisk> <bar> <f> : "ϕ"
+<Multi_key> <KP_Multiply> <bar> <f> : "ϕ"
+<Multi_key> <x> <colon>   : "※"
+<Multi_key> <q> <p>       : "ȹ"
+<Multi_key> <p> <e> <r>   : "⅌"
+<Multi_key> <s> <a> <m>   : "⅏"
+<Multi_key> <b> <o> <o> <l> : "🅱🅾🅾🕒"
+<Multi_key> <h> <m> <m>   : "[ə̃m̩.ɦm̩ː]"
+<Multi_key> <e> <d> <i> <t> : "⸎"
+<Multi_key> <p> <a> <l> <m> : "⸙"
+<Multi_key> <s> <w> <o> <r> <d> <s> : "⚔"
+<Multi_key> <w> <h> <a> <t> <e> <v> <e> <r> : "¯\_(ツ)_/¯"
