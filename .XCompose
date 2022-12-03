@@ -607,3 +607,8 @@
 <Multi_key> <KP_0> <space>     : "​"
 <Multi_key> <Right> <space>  : "       "
 
+# Emoji
+<Multi_key> <Multi_key> <s> <w> : "😅"
+<Multi_key> <Multi_key> <g> <r> : "😀"
+<Multi_key> <Multi_key> <s> <m> : "😏"
+
