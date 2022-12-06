@@ -611,6 +611,18 @@
 <Multi_key> <Multi_key> <s> <w> : "😅"
 <Multi_key> <Multi_key> <g> <r> : "😀"
 <Multi_key> <Multi_key> <s> <m> : "😏"
+<Multi_key> <Multi_key> <h> <m> : "🤔"
+
+# astro
+<Multi_key> <s> <u> <n>             : "☉"
+<Multi_key> <m> <e> <r>             : "☿"
+<Multi_key> <v> <e> <n>             : "♀"
+<Multi_key> <e> <a> <r>             : "⊕"
+<Multi_key> <m> <a> <r>             : "♂"
+<Multi_key> <j> <u> <p>             : "♃"
+<Multi_key> <s> <a> <t>             : "♄"
+<Multi_key> <u> <r> <a>             : "♅"
+<Multi_key> <n> <e> <p>             : "♆"
 
 # Computers
 <Multi_key> <c> <m> <d> : "⌘"
