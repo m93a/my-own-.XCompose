@@ -610,8 +610,11 @@
 # Emoji
 <Multi_key> <Multi_key> <s> <w> : "😅"
 <Multi_key> <Multi_key> <g> <r> : "😀"
+<Multi_key> <Multi_key> <b> <e> : "😁"
 <Multi_key> <Multi_key> <s> <m> : "😏"
 <Multi_key> <Multi_key> <h> <m> : "🤔"
+<Multi_key> <Multi_key> <y> <y> : "👍"
+<Multi_key> <Multi_key> <n> <n> : "👎"
 
 # astro
 <Multi_key> <s> <u> <n>             : "☉"
